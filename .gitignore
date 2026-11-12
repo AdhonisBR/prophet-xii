@@ -3,10 +3,8 @@
 /android/build/
 *.core
 /core
-
-# Generated deliverables are distributed through GitHub Releases.
-/binaries/
-/evidence/wavs/
-/evidence/probes/
-/third_party/rust-sources.tar.gz
+*.key
+*.p12
+*.jks
+*.keystore
 /PROPHET-XII-DELIVERY.zip*

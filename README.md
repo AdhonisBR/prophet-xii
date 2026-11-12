@@ -1,6 +1,6 @@
 # PROPHET-XII
 
-> Repositório público de fontes e evidências. A [Release v1.0.0-experimental](https://github.com/AdhonisBR/prophet-xii/releases/tag/v1.0.0-experimental) contém o ZIP completo com binários, APK, WAVs e fontes das dependências. Para executar os binários abaixo, extraia primeiro esse pacote. O estado experimental e as limitações estão no [relatório de entrega](DELIVERY_REPORT.md).
+> Exportação pública completa: fontes, binários Linux, APK Android ARM64, WAVs, presets, dependências arquivadas e evidências. [Baixe o snapshot completo](https://github.com/AdhonisBR/prophet-xii/archive/refs/heads/main.zip) ou clone o repositório. O estado experimental e as limitações estão no [relatório de entrega](DELIVERY_REPORT.md).
 
 Instrumento virtual de 12 vozes com motor Rust, renderizador MIDI/WAV, host desktop CPAL, interface React remota, CLAP/VST3 NIH-plug e host Android AAudio. Esta entrega é uma implementação experimental mensurada; consulte `DELIVERY_REPORT.md` para a matriz de conformidade, evidências e limites.
 
@@ -47,12 +47,14 @@ Veja `docs/ANDROID.md`. O APK e a biblioteca AAudio ARM64 estão em `binaries/an
 
 Licença do projeto: GNU GPL versão 3 somente. Textos, inventário e proveniência em `LICENSE`, `DEPENDENCIES.json` e `docs/PROVENANCE.md`. O ZIP original e seus hashes permanecem em `baseline/`.
 
-## Obter os artefatos publicados
+## Obter o projeto completo
 
 ```sh
-gh release download v1.0.0-experimental --repo AdhonisBR/prophet-xii --pattern 'PROPHET-XII-DELIVERY.zip*'
-sha256sum -c PROPHET-XII-DELIVERY.zip.sha256
-unzip PROPHET-XII-DELIVERY.zip
+git clone https://github.com/AdhonisBR/prophet-xii.git
+cd prophet-xii
+./binaries/linux-x86_64/prophet-standalone --ui ui/dist
 ```
 
-O histórico Git contém os fontes, presets, testes, documentação e relatórios. Binários, WAVs/probes e o snapshot Cargo de fontes de dependências estão no ZIP da Release para manter o clone pequeno. O manifesto do pacote original está em `evidence/DELIVERY-ARTIFACTS-SHA256SUMS`.
+O download ZIP do GitHub contém os mesmos arquivos: os binários estão em `binaries`, WAVs em `evidence/wavs` e o snapshot de fontes Cargo em `third_party/rust-sources.tar.gz`. Os limites e testes registrados estão em `DELIVERY_REPORT.md`.
+
+A tentativa de anexar o ZIP original a uma Release foi recusada pelo endpoint de uploads. Por isso, esta exportação mantém os entregáveis diretamente no Git. `evidence/DELIVERY-ARTIFACTS-SHA256SUMS` preserva o manifesto histórico da entrega original; a documentação de publicação acrescentada aqui pode diferir desse manifesto.
