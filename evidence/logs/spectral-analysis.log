@@ -1,0 +1,121 @@
+{
+  "oscillators": {
+    "naive-48000": {
+      "nonharmonic_energy_db": -11.655789182431525
+    },
+    "blep-a-48000": {
+      "nonharmonic_energy_db": -27.1894562228307
+    },
+    "blep-b-48000": {
+      "nonharmonic_energy_db": -27.189456189575285
+    },
+    "triangle-48000": {
+      "nonharmonic_energy_db": -51.60632704898872
+    },
+    "naive-96000": {
+      "nonharmonic_energy_db": -11.655789182431525
+    },
+    "blep-a-96000": {
+      "nonharmonic_energy_db": -27.1894562228307
+    },
+    "blep-b-96000": {
+      "nonharmonic_energy_db": -27.189456189575285
+    },
+    "triangle-96000": {
+      "nonharmonic_energy_db": -51.60632704898872
+    }
+  },
+  "oversampling": {
+    "1x-48000": {
+      "nonharmonic_energy_db": -15.990636317910106
+    },
+    "2x-48000": {
+      "nonharmonic_energy_db": -39.50060873317976
+    },
+    "4x-48000": {
+      "nonharmonic_energy_db": -90.4013347891179
+    },
+    "1x-96000": {
+      "nonharmonic_energy_db": -15.990636317910106
+    },
+    "2x-96000": {
+      "nonharmonic_energy_db": -39.50060873317976
+    },
+    "4x-96000": {
+      "nonharmonic_energy_db": -90.4013347891179
+    }
+  },
+  "filters": {
+    "curtis-0.25-48000": {
+      "dc_db": -0.030128544941110162,
+      "cutoff_db": -9.1846916647337,
+      "nyquist_db": -125.44413850345234,
+      "thd_db": -56.64367468064892,
+      "selected_imd_db": -58.89791212717384
+    },
+    "curtis-2.0-48000": {
+      "dc_db": -0.030128544941110162,
+      "cutoff_db": -9.1846916647337,
+      "nyquist_db": -125.44413850345234,
+      "thd_db": -22.054540086075576,
+      "selected_imd_db": -24.3007267113224
+    },
+    "moog-0.25-48000": {
+      "dc_db": -3.76376709492318,
+      "cutoff_db": -6.668338244692443,
+      "nyquist_db": -177.36789186497606,
+      "thd_db": -72.68540260526984,
+      "selected_imd_db": -69.80508471578813
+    },
+    "moog-2.0-48000": {
+      "dc_db": -3.76376709492318,
+      "cutoff_db": -6.668338244692443,
+      "nyquist_db": -177.36789186497606,
+      "thd_db": -35.147024911938956,
+      "selected_imd_db": -31.649728386026776
+    },
+    "curtis-0.25-96000": {
+      "dc_db": -0.3810607387820916,
+      "cutoff_db": -9.149055377694138,
+      "nyquist_db": -109.64481178601528,
+      "thd_db": -56.119297633678045,
+      "selected_imd_db": -57.599902680576626
+    },
+    "curtis-2.0-96000": {
+      "dc_db": -0.3810607387820916,
+      "cutoff_db": -9.149055377694138,
+      "nyquist_db": -109.64481178601528,
+      "thd_db": -21.544213953088246,
+      "selected_imd_db": -23.797678129299417
+    },
+    "moog-0.25-96000": {
+      "dc_db": -3.7637674845031017,
+      "cutoff_db": -6.633191913767902,
+      "nyquist_db": -168.28991245697554,
+      "thd_db": -64.7371691706984,
+      "selected_imd_db": -58.09915045976746
+    },
+    "moog-2.0-96000": {
+      "dc_db": -3.7637674845031017,
+      "cutoff_db": -6.633191913767902,
+      "nyquist_db": -168.28991245697554,
+      "thd_db": -26.613984824420456,
+      "selected_imd_db": -22.06012133903397
+    }
+  },
+  "reverb": {
+    "48000": {
+      "requested_rt60": 1.5,
+      "measured_t20_extrapolated_rt60": 0.59133501438172,
+      "initial_energy": 0.002019414727614944,
+      "finite": true
+    },
+    "96000": {
+      "requested_rt60": 1.5,
+      "measured_t20_extrapolated_rt60": 0.5786145598476401,
+      "initial_energy": 0.0012914385343096159,
+      "finite": true
+    }
+  }
+}
+PASS: WAV integrity, BLEP improvement >6 dB, 4x nonlinear alias rejection improvement >15 dB

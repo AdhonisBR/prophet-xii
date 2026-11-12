@@ -1,0 +1,30 @@
+   Compiling prophet-dsp v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-dsp)
+   Compiling prophet-params v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-params)
+   Compiling prophet-control v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-control)
+   Compiling prophet-render v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-render)
+   Compiling prophet-standalone v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-standalone)
+   Compiling prophet-plugin v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-plugin)
+warning: trailing semicolon in macro used in expression position
+    --> crates/prophet-plugin/src/lib.rs:1525:1
+     |
+1525 | nih_export_vst3!(Prophet);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+     = note: for more information, see issue #79813 <https://github.com/rust-lang/rust/issues/79813>
+     = note: `#[warn(semicolon_in_expressions_from_non_local_macros)]` (part of `#[warn(future_incompatible)]`) on by default
+     = note: this warning originates in the macro `vst3_com::vtable` which comes from the expansion of the macro `nih_export_vst3` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: trailing semicolon in macro used in expression position
+    --> crates/prophet-plugin/src/lib.rs:1525:1
+     |
+1525 | nih_export_vst3!(Prophet);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+     = note: for more information, see issue #79813 <https://github.com/rust-lang/rust/issues/79813>
+     = note: this warning originates in the macro `vst3_com::vtable` which comes from the expansion of the macro `nih_export_vst3` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+   Compiling prophet-android v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-android)
+warning: `prophet-plugin` (lib) generated 3 warnings (1 duplicate)
+    Finished `release` profile [optimized] target(s) in 47.93s

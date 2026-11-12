@@ -1,0 +1,20 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/prophet-dsp",
+    "crates/prophet-plugin",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+authors = ["PROPHET-XII DSP Engineering Team"]
+repository = "https://github.com/prophet-xii/prophet-xii"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = false

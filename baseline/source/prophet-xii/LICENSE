@@ -1,0 +1,22 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            PROPHET-XII
+    12-Voice Virtual Analog Polyphonic Synthesizer (Prophet-10 Rev3 + Moog Ladder)
+    Copyright (C) 2026 PROPHET-XII Contributors
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Open-Source Mathematical & DSP References (GPLv3 Compatible):
+    - Voice Dispersion & CEM Topology: OB-Xd (https://github.com/2DaT/Obxd)
+    - ZDF/TPT Ladder & Cytomic SVF Filters: Surge XT sst-filters (https://github.com/surge-synthesizer/sst-filters)
+    - BBD Stereo Chorus (MN3009): YKChorus / TAL Chorus (https://github.com/SpotlightKid/ykchorus)
+    - Hybrid Plate/FDN Reverb: CloudSeed (https://github.com/ValdemarOrn/CloudSeed) & Signalsmith (https://github.com/Signalsmith-Audio/reverb-example-code)
+    - Plugin Wrapper Architecture: NIH-plug (https://github.com/robbert-vdh/nih-plug)

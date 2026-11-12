@@ -1,0 +1,30 @@
+Thu Nov 12 04:34:02 UTC 2026
+Linux 0990ac9239f8 6.18.57 #1 SMP Tue Oct 20 21:56:04 UTC 2026 x86_64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.6
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+rustc 1.99.1 (58cf8f9c3 2026-10-13)
+cargo 1.99.1 (5f94df478 2026-08-27)
+v24.22.1
+11.9.0
+openjdk version "21.0.13" 2026-10-20
+OpenJDK Runtime Environment (build 21.0.13+9-1-deb13u2-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.13+9-1-deb13u2-Debian, mixed mode, sharing)
+gcc (Debian 14.2.0-19) 14.2.0
+ldd (Debian GLIBC 2.41-12+deb13u4) 2.41
+/usr/bin/ldd: line 41: printf: write error: Broken pipe
+/usr/bin/ldd: line 43: printf: write error: Broken pipe
+Python 3.12.14
+3cdf9ca5d1f5b1b21e0a86832aa4abe55607bd96
+a47f6badb49d948fd009998f28309cdab78979c9
+Pkg.Desc = Android NDK
+Pkg.Revision = 27.2.12479018
+Pkg.BaseRevision = 27.2.12479018
+Pkg.ReleaseName = r27c

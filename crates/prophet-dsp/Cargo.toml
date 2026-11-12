@@ -1,0 +1,12 @@
+[package]
+name = "prophet-dsp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Hard Real-Time Deterministic DSP Kernel for PROPHET-XII (CEM3340, CEM3320, Moog Ladder, CEM3310, Juno-106 BBD Chorus, Solaris-Cloudburst Reverb)"
+
+[dependencies]
+
+[features]
+default = []
+simd = []

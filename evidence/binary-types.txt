@@ -1,0 +1,11 @@
+binaries/linux-x86_64/PROPHET-XII.clap:         ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=1ba823cf9cd56efd48cb67e714aed9a813a82ee7, with debug_info, not stripped
+binaries/linux-x86_64/PROPHET-XII.vst3:         directory
+binaries/linux-x86_64/prophet-bench:            ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=a040c25f88e70c5cf33c9ce498dadeb8a51e04f9, with debug_info, not stripped
+binaries/linux-x86_64/prophet-presets:          ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=798a2d002ffaf5c0bbe5aadd76c9e8f26d3bfb6e, with debug_info, not stripped
+binaries/linux-x86_64/prophet-probes:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=955a6ed27878027eac7f5e5e276c31f805101f46, with debug_info, not stripped
+binaries/linux-x86_64/prophet-render:           ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=7b9f4a31561e5148c1bcac8aa439972c8029e861, with debug_info, not stripped
+binaries/linux-x86_64/prophet-standalone:       ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=5100003f84a2f479ceaf65171743f04c9212af89, with debug_info, not stripped
+binaries/android-arm64/PROPHET-XII.apk:         Android package (APK), with AndroidManifest.xml, with APK Signing Block
+binaries/android-arm64/libprophet_android.so:   ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamically linked, for Android 26, built by NDK r27c (12479018), with debug_info, not stripped
+binaries/linux-aarch64/libprophet_control.rlib: current ar archive
+binaries/linux-aarch64/libprophet_dsp.rlib:     current ar archive

@@ -1,0 +1,13 @@
+   Compiling prophet-dsp v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-dsp)
+   Compiling prophet-plugin v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-plugin)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 1.63s
+     Running unittests src/lib.rs (target/debug/deps/prophet_dsp-5eb6f43a08310889)
+
+running 3 tests
+
+thread 'tests::test_kernel_12_voices_and_fx_pipeline' (1164) has overflowed its stack
+fatal runtime error: stack overflow, aborting
+error: test failed, to rerun pass `-p prophet-dsp --lib`
+
+Caused by:
+  process didn't exit successfully: `/workspace/prophet-work/prophet-xii/target/debug/deps/prophet_dsp-5eb6f43a08310889` (signal: 6, SIGABRT: process abort signal)

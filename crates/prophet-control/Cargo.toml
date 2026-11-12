@@ -1,0 +1,8 @@
+[package]
+name="prophet-control"
+version.workspace=true
+edition.workspace=true
+license.workspace=true
+[dependencies]
+prophet-dsp={path="../prophet-dsp"}
+prophet-params={path="../prophet-params"}

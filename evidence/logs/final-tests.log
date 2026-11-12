@@ -1,0 +1,194 @@
+   Compiling prophet-dsp v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-dsp)
+   Compiling prophet-params v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-params)
+   Compiling prophet-control v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-control)
+   Compiling log v0.4.35
+   Compiling prophet-render v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-render)
+   Compiling tracing v0.1.44
+   Compiling tungstenite v0.29.0
+   Compiling tokio-tungstenite v0.29.0
+   Compiling axum-core v0.5.6
+   Compiling tower v0.5.3
+   Compiling prophet-standalone v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-standalone)
+   Compiling prophet-plugin v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-plugin)
+warning: trailing semicolon in macro used in expression position
+    --> crates/prophet-plugin/src/lib.rs:1525:1
+     |
+1525 | nih_export_vst3!(Prophet);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+     = note: for more information, see issue #79813 <https://github.com/rust-lang/rust/issues/79813>
+     = note: `#[warn(semicolon_in_expressions_from_non_local_macros)]` (part of `#[warn(future_incompatible)]`) on by default
+     = note: this warning originates in the macro `vst3_com::vtable` which comes from the expansion of the macro `nih_export_vst3` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+warning: trailing semicolon in macro used in expression position
+    --> crates/prophet-plugin/src/lib.rs:1525:1
+     |
+1525 | nih_export_vst3!(Prophet);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^
+     |
+     = warning: this was previously accepted by the compiler but is being phased out; it will become a hard error in a future release!
+     = note: for more information, see issue #79813 <https://github.com/rust-lang/rust/issues/79813>
+     = note: this warning originates in the macro `vst3_com::vtable` which comes from the expansion of the macro `nih_export_vst3` (in Nightly builds, run with -Z macro-backtrace for more info)
+
+   Compiling axum v0.8.9
+warning: `prophet-plugin` (lib) generated 3 warnings (1 duplicate)
+   Compiling prophet-android v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-android)
+warning: `prophet-plugin` (lib test) generated 3 warnings (3 duplicates)
+    Finished `release` profile [optimized] target(s) in 2m 57s
+     Running unittests src/lib.rs (target/release/deps/prophet_android-f6bab1ee0cf9fdf7)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/release/deps/prophet_control-98de4e5320c77787)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/events.rs (target/release/deps/events-2fdb940254e6a4ed)
+
+running 2 tests
+test invalid_events_and_nonfinite_params_are_rejected ... ok
+test timestamped_midi_sustain_cc_bend_and_panic ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/release/deps/prophet_dsp-02205e7aef070dbf)
+
+running 3 tests
+test tests::test_cem3340_hard_sync_and_polyblep_bounded ... ok
+test tests::test_kernel_12_voices_and_fx_pipeline ... ok
+test tests::test_zdf_filters_self_oscillation_and_stability ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/dsp.rs (target/release/deps/dsp-b8654aeee9b21549)
+
+running 11 tests
+test adsr_times_and_noteoff ... ok
+test chorus_silence_and_stereo_modes ... ok
+test filter_stress_and_actual_feedback_solution ... ok
+test hadamard_is_orthogonal ... ok
+test deterministic_and_block_partition_invariant ... ok
+test oversampler_dc_latency_stopband ... ok
+test no_callback_allocations ... ok
+test reverb_decay_and_freeze_bounded ... ok
+test unison_one_to_twelve_priorities ... ok
+test zdf_equations_have_small_residuals ... ok
+test twelve_voices_steal_and_release ... ok
+
+test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.42s
+
+     Running unittests src/lib.rs (target/release/deps/prophet_params-78c28ea50747ccfb)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/release/deps/prophet_plugin-1cbc565145ea9c7f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/release/deps/prophet_render-4707e4c7499f0761)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/prophet-bench.rs (target/release/deps/prophet_bench-859e55bbc262247b)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/prophet-presets.rs (target/release/deps/prophet_presets-7c8d5f9a63cf3a05)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/prophet-probes.rs (target/release/deps/prophet_probes-27601261bb3d42b8)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/release/deps/prophet_render-3c1bd8f52c187f76)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/midi.rs (target/release/deps/midi-016a45eaea7845d6)
+
+running 1 test
+test smf_tempo_changes_and_wav ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+     Running unittests src/lib.rs (target/release/deps/prophet_standalone-47f43c6127a64d4f)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/release/deps/prophet_standalone-e1a1a0ad8557811b)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/callback.rs (target/release/deps/callback-136be7f65d097ba3)
+
+running 1 test
+test native_callback_has_no_allocations_including_control_and_telemetry ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.19s
+
+   Doc-tests prophet_android
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests prophet_control
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests prophet_dsp
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests prophet_params
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests prophet_plugin
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests prophet_render
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests prophet_standalone
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

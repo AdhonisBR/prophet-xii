@@ -1,0 +1,329 @@
+{
+  "demos": {
+    "chorus-i-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.209197998046875,
+      "rms": 0.03455573993182176,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.042784886419025635
+    },
+    "chorus-i-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.20947265625,
+      "rms": 0.03458808474216909,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.042804515192421455
+    },
+    "chorus-i-ii-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.237579345703125,
+      "rms": 0.036685028987353374,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.02737366406269126
+    },
+    "chorus-i-ii-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.23895263671875,
+      "rms": 0.036770835827316606,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.027448999757146146
+    },
+    "chorus-ii-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.2059326171875,
+      "rms": 0.03447382564042652,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.04239555098904125
+    },
+    "chorus-ii-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.206298828125,
+      "rms": 0.03452957809973915,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.042455142159830005
+    },
+    "curtis-resonance-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.115325927734375,
+      "rms": 0.019095435459367795,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.018696763845579504
+    },
+    "curtis-resonance-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.115570068359375,
+      "rms": 0.019083392932821058,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.0186937277361256
+    },
+    "hard-sync-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.140228271484375,
+      "rms": 0.016842169604260205,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.01699856673336083
+    },
+    "hard-sync-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.13909912109375,
+      "rms": 0.01690599613612197,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.016991102777939512
+    },
+    "midi-tempo-48000.wav": {
+      "rate": 48000,
+      "frames": 168000,
+      "finite": true,
+      "peak": 0.062103271484375,
+      "rms": 0.012499040483390917,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.011763178906716085
+    },
+    "moog-drive-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.13409423828125,
+      "rms": 0.03184782889148085,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.031790671625500366
+    },
+    "moog-drive-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.1341552734375,
+      "rms": 0.031842179908654254,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.03178115408300984
+    },
+    "poly-mod-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.04534912109375,
+      "rms": 0.003979658683558607,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.004124205365249276
+    },
+    "poly-mod-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.045501708984375,
+      "rms": 0.003985170005620351,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.004132329303836064
+    },
+    "reverb-ensemble-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.06646728515625,
+      "rms": 0.011355151756589008,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.012265420142914797
+    },
+    "reverb-ensemble-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.063690185546875,
+      "rms": 0.011371120980741469,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.012278061388349738
+    },
+    "single-note-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.095611572265625,
+      "rms": 0.016422378912209313,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.013750750655702242
+    },
+    "single-note-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.095733642578125,
+      "rms": 0.016417496611554713,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.01374669013211333
+    },
+    "twelve-voices-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.265289306640625,
+      "rms": 0.03937042339167454,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.036640463108163546
+    },
+    "twelve-voices-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.263580322265625,
+      "rms": 0.039362865052251055,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.03663092957803337
+    },
+    "unison-48000.wav": {
+      "rate": 48000,
+      "frames": 240000,
+      "finite": true,
+      "peak": 0.269561767578125,
+      "rms": 0.02397347462781617,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.02223561884258496
+    },
+    "unison-96000.wav": {
+      "rate": 96000,
+      "frames": 480000,
+      "finite": true,
+      "peak": 0.2711181640625,
+      "rms": 0.023923083067602022,
+      "clipped_samples": 0,
+      "stereo_difference_rms": 0.02224977052694603
+    }
+  },
+  "oscillators": {
+    "naive-48000": {
+      "nonharmonic_energy_db": -11.655789182431525
+    },
+    "blep-a-48000": {
+      "nonharmonic_energy_db": -27.1894562228307
+    },
+    "blep-b-48000": {
+      "nonharmonic_energy_db": -27.189456189575285
+    },
+    "triangle-48000": {
+      "nonharmonic_energy_db": -51.60632704898872
+    },
+    "naive-96000": {
+      "nonharmonic_energy_db": -11.655789182431525
+    },
+    "blep-a-96000": {
+      "nonharmonic_energy_db": -27.1894562228307
+    },
+    "blep-b-96000": {
+      "nonharmonic_energy_db": -27.189456189575285
+    },
+    "triangle-96000": {
+      "nonharmonic_energy_db": -51.60632704898872
+    }
+  },
+  "oversampling": {
+    "1x-48000": {
+      "nonharmonic_energy_db": -15.990636317910106
+    },
+    "2x-48000": {
+      "nonharmonic_energy_db": -39.50060873317976
+    },
+    "4x-48000": {
+      "nonharmonic_energy_db": -90.4013347891179
+    },
+    "1x-96000": {
+      "nonharmonic_energy_db": -15.990636317910106
+    },
+    "2x-96000": {
+      "nonharmonic_energy_db": -39.50060873317976
+    },
+    "4x-96000": {
+      "nonharmonic_energy_db": -90.4013347891179
+    }
+  },
+  "filters": {
+    "curtis-0.25-48000": {
+      "dc_db": -0.030128544941110162,
+      "cutoff_db": -9.1846916647337,
+      "nyquist_db": -125.44413850345234,
+      "thd_db": -56.64367468064892,
+      "selected_imd_db": -58.89791212717384
+    },
+    "curtis-2.0-48000": {
+      "dc_db": -0.030128544941110162,
+      "cutoff_db": -9.1846916647337,
+      "nyquist_db": -125.44413850345234,
+      "thd_db": -22.054540086075576,
+      "selected_imd_db": -24.3007267113224
+    },
+    "moog-0.25-48000": {
+      "dc_db": -3.76376709492318,
+      "cutoff_db": -6.668338244692443,
+      "nyquist_db": -177.36789186497606,
+      "thd_db": -72.68540260526984,
+      "selected_imd_db": -69.80508471578813
+    },
+    "moog-2.0-48000": {
+      "dc_db": -3.76376709492318,
+      "cutoff_db": -6.668338244692443,
+      "nyquist_db": -177.36789186497606,
+      "thd_db": -35.147024911938956,
+      "selected_imd_db": -31.649728386026776
+    },
+    "curtis-0.25-96000": {
+      "dc_db": -0.3810607387820916,
+      "cutoff_db": -9.149055377694138,
+      "nyquist_db": -109.64481178601528,
+      "thd_db": -56.119297633678045,
+      "selected_imd_db": -57.599902680576626
+    },
+    "curtis-2.0-96000": {
+      "dc_db": -0.3810607387820916,
+      "cutoff_db": -9.149055377694138,
+      "nyquist_db": -109.64481178601528,
+      "thd_db": -21.544213953088246,
+      "selected_imd_db": -23.797678129299417
+    },
+    "moog-0.25-96000": {
+      "dc_db": -3.7637674845031017,
+      "cutoff_db": -6.633191913767902,
+      "nyquist_db": -168.28991245697554,
+      "thd_db": -64.7371691706984,
+      "selected_imd_db": -58.09915045976746
+    },
+    "moog-2.0-96000": {
+      "dc_db": -3.7637674845031017,
+      "cutoff_db": -6.633191913767902,
+      "nyquist_db": -168.28991245697554,
+      "thd_db": -26.613984824420456,
+      "selected_imd_db": -22.06012133903397
+    }
+  },
+  "reverb": {
+    "48000": {
+      "requested_rt60": 1.5,
+      "measured_t20_extrapolated_rt60": 0.59133501438172,
+      "initial_energy": 0.002019414727614944,
+      "finite": true
+    },
+    "96000": {
+      "requested_rt60": 1.5,
+      "measured_t20_extrapolated_rt60": 0.5786145598476401,
+      "initial_energy": 0.0012914385343096159,
+      "finite": true
+    }
+  }
+}

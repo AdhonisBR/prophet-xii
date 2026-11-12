@@ -1,0 +1,832 @@
+[
+  {
+    "id": 0,
+    "key": "OscASemi",
+    "name": "OscA Semi",
+    "min": -36,
+    "max": 36,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR A"
+  },
+  {
+    "id": 1,
+    "key": "OscAFine",
+    "name": "OscA Fine",
+    "min": -100,
+    "max": 100,
+    "integer": false,
+    "logarithmic": false,
+    "group": "OSCILLATOR A"
+  },
+  {
+    "id": 2,
+    "key": "OscAPw",
+    "name": "OscA Pw",
+    "min": 0.01,
+    "max": 0.99,
+    "integer": false,
+    "logarithmic": false,
+    "group": "OSCILLATOR A"
+  },
+  {
+    "id": 3,
+    "key": "OscASaw",
+    "name": "OscA Saw",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR A"
+  },
+  {
+    "id": 4,
+    "key": "OscAPulse",
+    "name": "OscA Pulse",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR A"
+  },
+  {
+    "id": 5,
+    "key": "OscASync",
+    "name": "OscA Sync",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR A"
+  },
+  {
+    "id": 6,
+    "key": "OscBSemi",
+    "name": "OscB Semi",
+    "min": -36,
+    "max": 36,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 7,
+    "key": "OscBFine",
+    "name": "OscB Fine",
+    "min": -100,
+    "max": 100,
+    "integer": false,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 8,
+    "key": "OscBPw",
+    "name": "OscB Pw",
+    "min": 0.01,
+    "max": 0.99,
+    "integer": false,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 9,
+    "key": "OscBSaw",
+    "name": "OscB Saw",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 10,
+    "key": "OscBTri",
+    "name": "OscB Tri",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 11,
+    "key": "OscBPulse",
+    "name": "OscB Pulse",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 12,
+    "key": "OscBLoFreq",
+    "name": "OscB Lo Freq",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 13,
+    "key": "OscBKeyTrack",
+    "name": "OscB Key Track",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "OSCILLATOR B"
+  },
+  {
+    "id": 14,
+    "key": "MixOscA",
+    "name": "Mix OscA",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "MIXER"
+  },
+  {
+    "id": 15,
+    "key": "MixOscB",
+    "name": "Mix OscB",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "MIXER"
+  },
+  {
+    "id": 16,
+    "key": "MixNoise",
+    "name": "Mix Noise",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "MIXER"
+  },
+  {
+    "id": 17,
+    "key": "NoisePinkBlend",
+    "name": "Noise Pink Blend",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "MIXER"
+  },
+  {
+    "id": 18,
+    "key": "PolyModFiltEnv",
+    "name": "Poly Mod Filt Env",
+    "min": -1,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "POLY-MOD"
+  },
+  {
+    "id": 19,
+    "key": "PolyModOscB",
+    "name": "Poly Mod OscB",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "POLY-MOD"
+  },
+  {
+    "id": 20,
+    "key": "PolyModDestFreqA",
+    "name": "Poly Mod Dest FreqA",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "POLY-MOD"
+  },
+  {
+    "id": 21,
+    "key": "PolyModDestPwA",
+    "name": "Poly Mod Dest PwA",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "POLY-MOD"
+  },
+  {
+    "id": 22,
+    "key": "PolyModDestFilt",
+    "name": "Poly Mod Dest Filt",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "POLY-MOD"
+  },
+  {
+    "id": 23,
+    "key": "FilterCutoff",
+    "name": "Filter Cutoff",
+    "min": 20,
+    "max": 18000,
+    "integer": false,
+    "logarithmic": true,
+    "group": "FILTER"
+  },
+  {
+    "id": 24,
+    "key": "FilterResonance",
+    "name": "Filter Resonance",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "FILTER"
+  },
+  {
+    "id": 25,
+    "key": "FilterDrive",
+    "name": "Filter Drive",
+    "min": 0.25,
+    "max": 4,
+    "integer": false,
+    "logarithmic": false,
+    "group": "FILTER"
+  },
+  {
+    "id": 26,
+    "key": "FilterEnvAmt",
+    "name": "Filter Env Amt",
+    "min": -1,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "FILTER"
+  },
+  {
+    "id": 27,
+    "key": "FilterKeyTrack",
+    "name": "Filter Key Track",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "FILTER"
+  },
+  {
+    "id": 28,
+    "key": "FilterMorph",
+    "name": "Filter Morph",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "FILTER"
+  },
+  {
+    "id": 29,
+    "key": "MoogBassComp",
+    "name": "Moog Bass Comp",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "FILTER"
+  },
+  {
+    "id": 30,
+    "key": "FiltAttack",
+    "name": "Filt Attack",
+    "min": 0.001,
+    "max": 25,
+    "integer": false,
+    "logarithmic": true,
+    "group": "FILTER ENVELOPE"
+  },
+  {
+    "id": 31,
+    "key": "FiltDecay",
+    "name": "Filt Decay",
+    "min": 0.001,
+    "max": 25,
+    "integer": false,
+    "logarithmic": true,
+    "group": "FILTER ENVELOPE"
+  },
+  {
+    "id": 32,
+    "key": "FiltSustain",
+    "name": "Filt Sustain",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "FILTER ENVELOPE"
+  },
+  {
+    "id": 33,
+    "key": "FiltRelease",
+    "name": "Filt Release",
+    "min": 0.001,
+    "max": 25,
+    "integer": false,
+    "logarithmic": true,
+    "group": "FILTER ENVELOPE"
+  },
+  {
+    "id": 34,
+    "key": "AmpAttack",
+    "name": "Amp Attack",
+    "min": 0.001,
+    "max": 25,
+    "integer": false,
+    "logarithmic": true,
+    "group": "AMPLIFIER ENVELOPE"
+  },
+  {
+    "id": 35,
+    "key": "AmpDecay",
+    "name": "Amp Decay",
+    "min": 0.001,
+    "max": 25,
+    "integer": false,
+    "logarithmic": true,
+    "group": "AMPLIFIER ENVELOPE"
+  },
+  {
+    "id": 36,
+    "key": "AmpSustain",
+    "name": "Amp Sustain",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "AMPLIFIER ENVELOPE"
+  },
+  {
+    "id": 37,
+    "key": "AmpRelease",
+    "name": "Amp Release",
+    "min": 0.001,
+    "max": 25,
+    "integer": false,
+    "logarithmic": true,
+    "group": "AMPLIFIER ENVELOPE"
+  },
+  {
+    "id": 38,
+    "key": "LfoFreq",
+    "name": "Lfo Freq",
+    "min": 0.04,
+    "max": 30,
+    "integer": false,
+    "logarithmic": true,
+    "group": "LFO"
+  },
+  {
+    "id": 39,
+    "key": "LfoInitialAmt",
+    "name": "Lfo Initial Amt",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 40,
+    "key": "ModWheel",
+    "name": "Mod Wheel",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 41,
+    "key": "VintageDispersion",
+    "name": "Vintage Dispersion",
+    "min": 0,
+    "max": 1.5,
+    "integer": false,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 42,
+    "key": "GlideTime",
+    "name": "Glide Time",
+    "min": 0,
+    "max": 5,
+    "integer": false,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 43,
+    "key": "UnisonVoices",
+    "name": "Unison Voices",
+    "min": 1,
+    "max": 12,
+    "integer": true,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 44,
+    "key": "UnisonDetune",
+    "name": "Unison Detune",
+    "min": 0,
+    "max": 60,
+    "integer": false,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 45,
+    "key": "UnisonSpread",
+    "name": "Unison Spread",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 46,
+    "key": "ChorusMode",
+    "name": "Chorus Mode",
+    "min": 0,
+    "max": 3,
+    "integer": true,
+    "logarithmic": false,
+    "group": "CHORUS"
+  },
+  {
+    "id": 47,
+    "key": "ChorusWet",
+    "name": "Chorus Wet",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "CHORUS"
+  },
+  {
+    "id": 48,
+    "key": "ChorusBbdNoise",
+    "name": "Chorus Bbd Noise",
+    "min": 0,
+    "max": 0.005,
+    "integer": false,
+    "logarithmic": false,
+    "group": "CHORUS"
+  },
+  {
+    "id": 49,
+    "key": "ReverbPreDelay",
+    "name": "Reverb Pre Delay",
+    "min": 0,
+    "max": 500,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 50,
+    "key": "ReverbCascade",
+    "name": "Reverb Cascade",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 51,
+    "key": "ReverbEnsembleMode",
+    "name": "Reverb Ensemble Mode",
+    "min": 0,
+    "max": 2,
+    "integer": true,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 52,
+    "key": "ReverbEnsembleBlend",
+    "name": "Reverb Ensemble Blend",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 53,
+    "key": "ReverbDecay",
+    "name": "Reverb Decay",
+    "min": 0.2,
+    "max": 60,
+    "integer": false,
+    "logarithmic": true,
+    "group": "REVERB"
+  },
+  {
+    "id": 54,
+    "key": "ReverbShimmer",
+    "name": "Reverb Shimmer",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 55,
+    "key": "ReverbVowelMorph",
+    "name": "Reverb Vowel Morph",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 56,
+    "key": "ReverbVowelMix",
+    "name": "Reverb Vowel Mix",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 57,
+    "key": "ReverbHighCut",
+    "name": "Reverb High Cut",
+    "min": 800,
+    "max": 18000,
+    "integer": false,
+    "logarithmic": true,
+    "group": "REVERB"
+  },
+  {
+    "id": 58,
+    "key": "ReverbLowCut",
+    "name": "Reverb Low Cut",
+    "min": 20,
+    "max": 1000,
+    "integer": false,
+    "logarithmic": true,
+    "group": "REVERB"
+  },
+  {
+    "id": 59,
+    "key": "ReverbModDepth",
+    "name": "Reverb Mod Depth",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 60,
+    "key": "ReverbModSpeed",
+    "name": "Reverb Mod Speed",
+    "min": 0.05,
+    "max": 5,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 61,
+    "key": "ReverbFreeze",
+    "name": "Reverb Freeze",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 62,
+    "key": "ReverbWet",
+    "name": "Reverb Wet",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 63,
+    "key": "OversamplingMode",
+    "name": "Oversampling Mode",
+    "min": 1,
+    "max": 4,
+    "integer": true,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 64,
+    "key": "MasterGain",
+    "name": "Master Gain",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 65,
+    "key": "PitchBend",
+    "name": "Pitch Bend",
+    "min": -7,
+    "max": 7,
+    "integer": false,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 66,
+    "key": "UnisonEnabled",
+    "name": "Unison Enabled",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 67,
+    "key": "NotePriority",
+    "name": "Note Priority",
+    "min": 0,
+    "max": 2,
+    "integer": true,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 68,
+    "key": "LfoSaw",
+    "name": "Lfo Saw",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 69,
+    "key": "LfoTri",
+    "name": "Lfo Tri",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 70,
+    "key": "LfoSquare",
+    "name": "Lfo Square",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 71,
+    "key": "LfoToA",
+    "name": "Lfo ToA",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 72,
+    "key": "LfoToB",
+    "name": "Lfo ToB",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 73,
+    "key": "LfoToPw",
+    "name": "Lfo To Pw",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 74,
+    "key": "LfoToFilter",
+    "name": "Lfo To Filter",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "LFO"
+  },
+  {
+    "id": 75,
+    "key": "ShimmerFifth",
+    "name": "Shimmer Fifth",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 76,
+    "key": "VelocitySensitivity",
+    "name": "Velocity Sensitivity",
+    "min": 0,
+    "max": 1,
+    "integer": false,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 77,
+    "key": "PolyEnvBipolar",
+    "name": "Poly Env Bipolar",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "POLY-MOD"
+  },
+  {
+    "id": 78,
+    "key": "GlideMode",
+    "name": "Glide Mode",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "PERFORMANCE"
+  },
+  {
+    "id": 79,
+    "key": "ShimmerSemitones",
+    "name": "Shimmer Semitones",
+    "min": -12,
+    "max": 12,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 80,
+    "key": "ReverbTempoBpm",
+    "name": "Reverb Tempo Bpm",
+    "min": 20,
+    "max": 300,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 81,
+    "key": "ReverbPreDelaySync",
+    "name": "Reverb Pre Delay Sync",
+    "min": 0,
+    "max": 1,
+    "integer": true,
+    "logarithmic": false,
+    "group": "REVERB"
+  },
+  {
+    "id": 82,
+    "key": "ReverbPreDelayBeats",
+    "name": "Reverb Pre Delay Beats",
+    "min": 0,
+    "max": 4,
+    "integer": false,
+    "logarithmic": false,
+    "group": "REVERB"
+  }
+]

@@ -1,0 +1,32 @@
+info: component rust-std for target aarch64-linux-android is up to date
+    Finished `release` profile [optimized] target(s) in 0.31s
+
+added 97 packages in 3s
+
+> prophet-xii-ui@1.0.0 build
+> tsc && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 32 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.46 kB │ gzip:  0.32 kB
+dist/assets/index-BQbNFYp2.css    6.11 kB │ gzip:  2.07 kB
+dist/assets/index-Cku28J_7.js   164.39 kB │ gzip: 52.76 kB
+✓ built in 1.62s
+----------
+1. WARNING in /workspace/prophet-work/prophet-xii/android/app/src/main/java/org/prophetxii/SynthService.java (at line 35)
+	try{while(running){if(in.available()>0){int first=in.read(),len=in.read();if(first<0||len<0||(first&15)==8)break;int n=len&127;if(n==126)n=(in.read()<<8)|in.read();if(n==127)break;int skip=n+((len&128)!=0?4:0);while(skip-->0)if(in.read()<0)throw new EOFException();}byte[] data=latest.getBytes(StandardCharsets.UTF_8);out.write(0x81);if(data.length<126)out.write(data.length);else{out.write(126);out.write(data.length>>8);out.write(data.length&255);}out.write(data);out.flush();Thread.sleep(40);}}finally{Native.command(3,0,0,0);}return;
+	                                                                                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+Mandatory close of resource 'out' has not been shown at this location
+----------
+1 problem (1 warning)
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1

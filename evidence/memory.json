@@ -1,0 +1,8 @@
+{
+  "scenario": "standalone null sink, 48kHz, four-note demo, 3 seconds",
+  "peak_observed_rss_kib": 6028,
+  "exit_code": 0,
+  "delay_storage_bytes": 1769472,
+  "kernel_inline_bytes": 105568,
+  "measurement": "external /proc sampling; native driver and other quality settings may differ"
+}

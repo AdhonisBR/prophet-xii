@@ -1,0 +1,5 @@
+   Compiling prophet-dsp v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-dsp)
+   Compiling prophet-params v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-params)
+   Compiling prophet-control v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-control)
+   Compiling prophet-android v1.0.0 (/workspace/prophet-work/prophet-xii/crates/prophet-android)
+    Finished `release` profile [optimized] target(s) in 3.11s

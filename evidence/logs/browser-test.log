@@ -1,0 +1,1 @@
+{"status": "PASS", "checks": ["React connects to Rust", "virtual NoteOn produces nonzero Rust samples", "cutoff changes engine parameter", "NoteOff releases voice", "factory unison activates 12 voices", "All Notes Off releases all voices", "desktop and mobile screenshots", "no browser runtime errors"], "browser": "151.0.7922.34", "errors": []}

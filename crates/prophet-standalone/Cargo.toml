@@ -1,0 +1,17 @@
+[package]
+name="prophet-standalone"
+version.workspace=true
+edition.workspace=true
+license.workspace=true
+[dependencies]
+prophet-dsp={path="../prophet-dsp"}
+prophet-control={path="../prophet-control"}
+prophet-params={path="../prophet-params"}
+cpal="0.15.3"
+midir="0.10.3"
+rtrb="0.3.2"
+axum={version="0.8",features=["ws"]}
+tokio={version="1",features=["rt-multi-thread","net","time","sync","signal","macros"]}
+serde={version="1",features=["derive"]}
+serde_json="1"
+tower-http={version="0.6",features=["fs"]}

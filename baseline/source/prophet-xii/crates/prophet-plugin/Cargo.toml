@@ -1,0 +1,14 @@
+[package]
+name = "prophet-plugin"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "PROPHET-XII VST3/CLAP/Standalone Plugin Wrapper, Lock-Free Atomic Parameter Bank, MIDI/MPE Engine, 10 Calibrated Classic Presets & WebView IPC Bridge"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+prophet-dsp = { path = "../prophet-dsp" }
+# Optional nih_plug integration feature for VST3/CLAP binary bundling
+# Reference: https://github.com/robbert-vdh/nih-plug
